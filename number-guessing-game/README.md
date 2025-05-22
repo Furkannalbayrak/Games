@@ -5,7 +5,7 @@ Bu proje, kullanıcıların 0 ile 100 arasında rastgele belirlenen bir sayıyı
 
 ## 🚀 Özellikler
 
-- 0 ile 100 arasında rastgele sayı üretilimi.
+- 0 ile 100 arasında rastgele sayı üretilmesi.
 - Kullanıcıdan sayı tahmini alınması
 - Tahmine göre yönlendirme (daha büyük / daha küçük)
 - Her yanlış tahminde puan azalması
