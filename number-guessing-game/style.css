@@ -1,0 +1,106 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: white;
+}
+.background{
+    background-color: rgb(48, 46, 46);
+    height: 100vh;
+    position: relative;
+}
+.tekrarBaslat{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+    padding-top: 30px;
+}
+button{
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.sayiTahminEt{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 31px;
+}
+.ortaSerit{
+    display: flex;
+    justify-content: center;    
+}
+.kare{
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    z-index: 1000;
+}
+
+.kare p{
+    color: black;
+    font-size: 60px;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 15%;
+}
+hr{
+    position: relative;
+    top: -8%;
+    background-color: white;
+    height: 4px;
+}
+.altTaraf{
+    display: flex;
+    margin: 100px auto;
+    width: 57%;
+    justify-content: space-between;
+}
+button{
+    padding: 15px;
+    border-radius: 7px;
+    transition: 0.2s;
+    border: none;
+    background-color: white;
+}
+button:hover{
+    transform: scale(1.08);
+}
+input{
+    background-color: rgb(48, 46, 46);
+    border: 3px solid white;
+    margin-bottom: 25px;
+    font-size: 40px;
+    width: 48%;
+    height: 13vh;
+    text-align: center;
+    padding-right: 20px;
+}
+.bilgi{
+    font-size: 25px;
+}
+
+.bilgiVer{
+    width: 310px;
+    font-size: 25px;
+    line-height: 2;
+
+}
+.firstP{
+    margin-bottom: 50px;
+}
+
+button:hover{
+    background-color: rgb(130, 127, 127);
+}
+
+
+
+

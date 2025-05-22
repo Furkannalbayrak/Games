@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img" href="logo-modified.png" >
+</head>
+<body>
+    <section>
+        <div class="background">
+            <div class="tekrarBaslat">
+                <button class="again">Tekrar Başlat</button>
+                <p class="bilgi">(0-100 arası)</p>
+            </div>
 
+            <div class="sayiTahminEt">
+                <h1>Sayı Tahmin Et !</h1>
+            </div>
+
+            <div class="ortaSerit">
+                <div class="kare">
+                    <p>?</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="altTaraf">
+                <div class="kontrolEt">
+                    <div>
+                        <input class="inputGir" type="number">
+                    </div>
+                    <button class="input">Kontrol Et !</button>
+                </div>
+
+                <div class="bilgiVer">
+                    <p class="firstP">Tahmin ediliyor...</p>
+                    <p class="secondP">Skor : <span class="skor">20</span></p>
+                    <p class="thirdP">En yüksek skor : <span class="maxSkor">0</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
