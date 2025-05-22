@@ -7,8 +7,8 @@ Bu proje, kullanıcıların 0 ile 100 arasında rastgele belirlenen bir sayıyı
 
 - 0 ile 100 arasında rastgele sayı üretilmesi.
 - Kullanıcıdan sayı tahmini alınması
-- Tahmine göre yönlendirme (daha büyük / daha küçük)
-- Her yanlış tahminde puan azalması
+- Tahmine göre yönlendirme yapılması(daha büyük / daha küçük)
+- Her yanlış tahminde puan azaltılması
 - Doğru tahminde arka plan renginin değişmesi
 - En yüksek skorun gösterilmesi
 - Oyunu tekrar başlatma özelliği
