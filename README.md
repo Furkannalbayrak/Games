@@ -6,9 +6,9 @@ Bu repository, çeşitli dillerde yazılmış oyunları içermektedir.
 - [Number Guessing Game](number-guessing-game/)
 
 ## 📌 Proje Listesi
-| Proje Adı               | Açıklama                                |
-|--------------------------|-----------------------------------------|
-| 🔢 [Number Guessing Game](number-guessing-game/) | Bilgisayarın seçtiği bir sayıyı tahmin etmeye çalış! |
+| Proje Adı               | Açıklama                                | Kullanılan Dil       |
+|--------------------------|-----------------------------------------|--------------------------------|
+| 🔢 [Number Guessing Game](number-guessing-game/) | Bilgisayarın seçtiği bir sayıyı tahmin etmeye çalış! | Javascript |
 
 Her projeye **tıklayarak** detaylarına ulaşabilirsiniz!
 
