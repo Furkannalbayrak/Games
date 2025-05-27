@@ -3,8 +3,7 @@
 Bu repository, çeşitli dillerde yazılmış oyunları içermektedir.
 
 ## 📌 Proje Listesi
-- [Furniture Website](Furniture-Website/)
-- [Food Website](Food-Website/)
+- [Number Guessing Game](number-guessing-game/)
 
 Her projeye **tıklayarak** detaylarına ulaşabilirsiniz!
 
