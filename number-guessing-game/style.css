@@ -1,41 +1,55 @@
-*{
+* {
     text-decoration: none;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     color: white;
 }
-.background{
+
+.background {
     background-color: rgb(48, 46, 46);
     height: 100vh;
     position: relative;
 }
-.tekrarBaslat{
+
+.tekrarBaslat {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     width: 95%;
     padding-top: 30px;
 }
-button{
+
+button {
     color: black;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 50px;
+    font-weight: bold;
     cursor: pointer;
+    padding: 15px;
+    border-radius: 7px;
+    transition: 0.2s;
+    border: none;
+    background-color: white;
 }
-.sayiTahminEt{
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.sayiTahminEt {
     text-align: center;
     margin-top: 100px;
     font-weight: bold;
     font-size: 31px;
 }
-.ortaSerit{
+
+.ortaSerit {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
-.kare{
+
+.kare {
     width: 150px;
     height: 120px;
     background-color: white;
@@ -44,134 +58,152 @@ button{
     z-index: 1000;
 }
 
-.kare p{
+.kare p {
     color: black;
     font-size: 60px;
     align-items: center;
     font-weight: bold;
     margin-top: 15%;
 }
-hr{
+
+hr {
     position: relative;
     top: -8%;
     background-color: white;
     height: 4px;
 }
-.altTaraf{
+
+.kontrolEt {
+    flex-basis: 40%;
     display: flex;
-    margin: 100px auto;
-    width: 57%;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-button{
-    padding: 15px;
-    border-radius: 7px;
-    transition: 0.2s;
-    border: none;
-    background-color: white;
+
+.bilgiVer {
+    font-size: 27px;
+    line-height: 2;
+    flex-basis: 30%;
 }
-button:hover{
-    transform: scale(1.08);
+
+.altTaraf {
+    display: flex;
+    margin: 75px auto;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
 }
-input{
+
+input {
+    display: flex;
+    margin: 0 auto;
     background-color: rgb(48, 46, 46);
     border: 3px solid white;
     margin-bottom: 25px;
     font-size: 40px;
-    width: 48%;
-    height: 13vh;
+    width: 55%;
+    height: 90px;
     text-align: center;
     padding-right: 20px;
 }
-.bilgi{
+
+.check {
+    display: flex;
+    margin: 25px auto;
+}
+
+.bilgi {
     font-size: 25px;
 }
 
-.bilgiVer{
-    width: 310px;
-    font-size: 25px;
-    line-height: 2;
-
-}
-.firstP{
+.firstP {
     margin-bottom: 50px;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(130, 127, 127);
 }
 
 
-/*----------- RESPONSİVE TASARIM -----------*/
+/*----------- RESPONSİVE TASARIM ------------*/
 
 
-@media(max-width: 1000px){
-    .altTaraf{
+
+@media(max-width: 1000px) {
+    .altTaraf {
         gap: 50px;
     }
-    input{
+
+    input {
         width: 50%;
         height: 75px;
     }
-    .bilgiVer{
+
+    .bilgiVer {
         flex-basis: 42%;
     }
 }
 
-@media(max-width: 700px){
-    .altTaraf{
+@media(max-width: 700px) {
+    .altTaraf {
         gap: 20px;
     }
-    .bilgiVer{
+
+    .bilgiVer {
         font-size: 26px;
         flex-basis: 48%;
     }
-    input{
+
+    input {
         height: 65px;
         width: 40%;
     }
-    button{
+
+    button {
         font-size: 15px;
     }
 }
 
-
 @media(max-width: 600px) {
-    .altTaraf{
+    .altTaraf {
         display: flex;
         flex-direction: column;
         margin-top: 45px;
     }
-    input{
+
+    input {
         width: 45%;
     }
-    .sayiTahminEt{
+
+    .sayiTahminEt {
         margin-top: 70px;
         font-size: 28px;
     }
-    .check{
+
+    .check {
         margin-top: 10px;
         font-size: 18px;
     }
-    .kare{
+
+    .kare {
         width: 130px;
         height: 100px;
     }
-    .bilgiVer{
+
+    .bilgiVer {
         display: flex;
         flex-direction: column;
         line-height: 1.5;
         font-size: 28px;
     }
-    .bilgiVer p{
+
+    .bilgiVer p {
         text-align: center;
     }
-    .firstP{
+
+    .firstP {
         margin: 0;
     }
 }
-
-
-
-
 
