@@ -132,7 +132,7 @@ button:hover {
 
 @media(max-width: 1000px) {
     .altTaraf {
-        gap: 45px;
+        gap: 40px;
     }
 
     input {
