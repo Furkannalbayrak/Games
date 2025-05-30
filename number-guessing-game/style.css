@@ -105,5 +105,73 @@ button:hover{
 /*----------- RESPONSİVE TASARIM -----------*/
 
 
+@media(max-width: 1000px){
+    .altTaraf{
+        gap: 50px;
+    }
+    input{
+        width: 50%;
+        height: 75px;
+    }
+    .bilgiVer{
+        flex-basis: 42%;
+    }
+}
+
+@media(max-width: 700px){
+    .altTaraf{
+        gap: 20px;
+    }
+    .bilgiVer{
+        font-size: 26px;
+        flex-basis: 48%;
+    }
+    input{
+        height: 65px;
+        width: 40%;
+    }
+    button{
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 600px) {
+    .altTaraf{
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+    input{
+        width: 45%;
+    }
+    .sayiTahminEt{
+        margin-top: 70px;
+        font-size: 28px;
+    }
+    .check{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .kare{
+        width: 130px;
+        height: 100px;
+    }
+    .bilgiVer{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5;
+        font-size: 28px;
+    }
+    .bilgiVer p{
+        text-align: center;
+    }
+    .firstP{
+        margin: 0;
+    }
+}
+
+
+
 
 
