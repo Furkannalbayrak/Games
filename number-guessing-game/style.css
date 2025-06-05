@@ -16,14 +16,13 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 95%;
+    width: 85%;
     padding-top: 30px;
 }
 
 button {
     color: black;
     font-size: 18px;
-    margin-left: 50px;
     font-weight: bold;
     cursor: pointer;
     padding: 15px;
