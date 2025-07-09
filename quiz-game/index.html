@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+
+    <div class="sinavTuruDiv">
+        <div class="container">
+            <h1>Yarışmak İstediğiniz Türü Seçiniz</h1>
+        </div>
+
+        <div class="sinavTuru same">
+            <div class="sameChild">Puanlı</div>
+            <div class="sameChild">Kategorili</div>
+        </div>
+
+        <div class="note">
+            <p>BİLGİLENDİRME</p>
+            <p>Puanlıda rastgele kategorilerden rastgele zorlukta sorular gelir ve bildikçe puan toplarsınız.</p>
+            <p>Kategorilide istediğiniz kategorideki ve istediğiniz zorluktaki soruları cevaplarsınız.</p>
+        </div>
+    </div>
+
+
+    <div class="kategoriDiv" style="display: none;">
+        <div class="container">
+            <h1>Bir Kategori Seçiniz</h1>
+        </div>
+    
+        <div class="kategoriler same">
+            <div class="sameChild">Sanat</div>
+            <div class="sameChild">Tarih</div>
+            <div class="sameChild">Müzik</div>
+            <div class="sameChild">Bilim</div>
+            <div class="sameChild">Spor</div>
+            <div class="sameChild">Sinema</div>
+        </div>
+    </div>
+
+
+    <div class="zorlukDuzeyiDiv" style="display: none;">
+        <div class="container">
+            <h1>Bir Zorluk Düzeyi Seçiniz</h1>
+        </div>
+    
+        <div class="zorlukDuzeyi same">
+            <div class="sameChild">Kolay</div>
+            <div class="sameChild">Orta</div>
+            <div class="sameChild">Zor</div>
+        </div>
+
+        <div class="startTest_Kategorili">
+            <button class="startTestChild_Kategorili">Teste Başla</button>
+        </div>
+    </div>
+ 
+
+    <div class="questionDiv" style="display: none;">
+        <div class="progressBar">
+            <div class="progressBarInner">
+
+            </div>
+        </div>
+
+        <div class="showDifficulty">
+            
+        </div>
+
+        <div class="question">
+            
+        </div>
+
+        <div class="options">
+            <div class="optionsChild"></div>
+            <div class="optionsChild"></div>
+            <div class="optionsChild"></div>
+            <div class="optionsChild"></div>
+        </div>
+
+        <div class="warning" style="display: none;">
+
+        </div>
+
+        <div class="nextQuestion">
+            <button class="nextQuestionChild">Sonraki Soru →</button>
+        </div>
+
+        <div class="liste" style="display: none;">
+            <button class="listeChild">Liste</button>
+        </div>
+    </div>
+
+
+    <div class="resultDiv" style="display: none;">
+        <div class="results">
+            <p class="result">Toplam doğru sayiniz : 5</p>
+            <p class="result">Toplam yanlış sayinizi : 10</p>
+            <p class="result">Toplam puaniniz : 31</p>
+        </div>
+
+        <div class="resultBox">
+            <!-- <div class="resultBoxChild">1</div>
+            <div class="resultBoxChild">2</div>
+            <div class="resultBoxChild">3</div> -->
+        </div>
+
+    </div>
+
+
+    <!------------------- PUANLI --------------------->
+    
+
+    <div class="bilgilendirmeDiv" style="display: none;">
+        <div class="bilgilendirme">
+            <h1>Test Hakkında Bilgiler</h1>
+            <p>• Testimiz rastgele zorlukta 10 adet sorudan oluşmaktadır</p>
+            <p>• Her soru için 30 saniyeniz vardır</p>
+            <p>• Bildiğiniz sorunun zorluğuna göre puan alacaksınız</p>
+            <p>• Kolay sorular : 2 puan</p>
+            <p>• Orta sorular : 4 puan</p>
+            <p>• Zor sorular : 7 puan</p>
+            <p style="font-weight: bold;">NOT: Süreniz bittiği takdirde sadece işaretleyebildiğiniz soruların sonuçlarını görebileceksiniz</p>
+        </div>
+
+        <div class="startTest_Puanli">
+            <button class="startTestChild_Puanli">Teste Başla</button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

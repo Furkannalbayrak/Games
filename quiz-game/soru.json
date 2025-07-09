@@ -1,0 +1,656 @@
+[
+    {
+        "kategori": "Sanat",
+        "zorluk": "Kolay",
+        "soru": "Mona Lisa tablosunun ressamı kimdir?",
+        "cevaplar": [
+            "Vincent van Gogh", 
+            "Leonardo da Vinci", 
+            "Pablo Picasso", 
+            "Claude Monet"
+        ],
+        "cevap": "Leonardo da Vinci"
+    },
+    {
+        "kategori": "Sanat",
+        "zorluk": "Kolay",
+        "soru": "\"Yıldızlı Gece\" (Starry Night) adlı ünlü tablonun ressamı kimdir?",
+        "cevaplar": [
+            "Vincent van Gogh", 
+            "Salvador Dalí", 
+            "Leonardo da Vinci", 
+            "Michelangelo"
+        ],
+        "cevap": "Vincent van Gogh"
+    },
+    {
+        "kategori": "Sanat",
+        "zorluk": "Kolay",
+        "soru": "Hangi müzik aleti, klasik müzikte genellikle \"yaylı çalgılar\" arasında yer alır?",
+        "cevaplar": [
+            "Gitar", 
+            "Piyano", 
+            "Çello", 
+            "Flüt"
+        ],
+        "cevap": "Çello"
+    },
+    {
+        "kategori": "Sanat",
+        "zorluk": "Orta",
+        "soru": "Hangi ressam, bir dönem \"Mavi Dönem\" olarak adlandırılan eserler üretmiştir?",
+        "cevaplar": [
+            "Salvador Dalí", 
+            "Edvard Munch", 
+            "Henri Matisse",
+            "Pablo Picasso"
+        ],
+        "cevap": "Pablo Picasso"
+    },
+    {
+        "kategori": "Sanat",
+        "zorluk": "Orta",
+        "soru": "Michelangelo'nun ünlü heykeli \"Davud\" (David) hangi şehirde sergilenmektedir?",
+        "cevaplar": [
+            "Floransa", 
+            "Roma", 
+            "Venedik", 
+            "Milano"
+        ],
+        "cevap": "Floransa"
+    },
+    {
+        "kategori": "Sanat",
+        "zorluk": "Orta",
+        "soru": "Salvador Dalí'nin \"Belleğin Azmi\" (The Persistence of Memory) adlı tablosunda hangi nesne dikkat çekici bir şekilde betimlenmiştir?",
+        "cevaplar": [
+            "Uçan Kuşlar", 
+            "Eriyen Saatler", 
+            "Yıkılan Binalar", 
+            "Gözyaşları"
+        ],
+        "cevap": "Eriyen Saatler"
+    },
+    {
+        "kategori": "Sanat",
+        "zorluk": "Zor",
+        "soru": "Jan van Eyck'in \"Arnolfini'nin Evlenmesi\" adlı eserinde, ayna üzerindeki detaylar neyi temsil etmektedir?",
+        "cevaplar": [
+            "Aile portresi", 
+            "Sanatçının otoportresi", 
+            "Dinî bir hikâye",
+            "Tanıklar ve sahne detayları"
+        ],
+        "cevap": "Tanıklar ve sahne detayları"
+    },
+    {
+        "kategori": "Sanat",
+        "zorluk": "Zor",
+        "soru": "Diego Velázquez'in \"Las Meninas\" adlı eserinde izleyiciye bakan figür kimdir?",
+        "cevaplar": [
+            "Kral ve Kraliçe", 
+            "Prenses Margarita", 
+            "Sanatçının kendisi", 
+            "Hizmetçi"
+        ],
+        "cevap": "Sanatçının kendisi"
+    },
+    {
+        "kategori": "Sanat",
+        "zorluk": "Zor",
+        "soru": "Hieronymus Bosch'un \"Dünyevi Zevkler Bahçesi\" adlı triptik eserinde, merkez panelin ana teması nedir?",
+        "cevaplar": [
+            "İnsanın dünyevi zevkleri ve günahları", 
+            "Cennet ve cehennem", 
+            "Meleklerin dansı", 
+            "Kıyamet günü"
+        ],
+        "cevap": "İnsanın dünyevi zevkleri ve günahları"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Kolay",
+        "soru": "Fransız İhtilali hangi yılda gerçekleşmiştir?",
+        "cevaplar": [
+            "1776", 
+            "1815", 
+            "1789", 
+            "1848"
+        ],
+        "cevap": "1789"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Kolay",
+        "soru": "I. Dünya Savaşı hangi yıllar arasında gerçekleşmiştir?",
+        "cevaplar": [
+            "1914-1918", 
+            "1939-1945", 
+            "1901-1905", 
+            "1804-1815"
+        ],
+        "cevap": "1914-1918"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Kolay",
+        "soru": "Türkiye Cumhuriyeti'nin kurucusu kimdir?",
+        "cevaplar": [
+            "İsmet İnönü", 
+            "Fatih Sultan Mehmet", 
+            "Abdülmecid",
+            "Mustafa Kemal Atatürk"
+        ],
+        "cevap": "Mustafa Kemal Atatürk"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Orta",
+        "soru": "Rönesans hareketi ilk olarak hangi ülkede başlamıştır?",
+        "cevaplar": [
+            "İtalya", 
+            "Fransa", 
+            "Almanya", 
+            "İngiltere"
+        ],
+        "cevap": "İtalya"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Orta",
+        "soru": "Amerikan İç Savaşı'nın temel sebebi nedir?",
+        "cevaplar": [
+            "Bağımsızlık mücadelesi", 
+            "Vergi reformu", 
+            "Kölelik karşıtlığı", 
+            "Toprak anlaşmazlıkları"
+        ],
+        "cevap": "Kölelik karşıtlığı"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Orta",
+        "soru": "Magna Carta hangi ülkede imzalanmıştır?",
+        "cevaplar": [
+            "Fransa", 
+            "İngiltere", 
+            "İspanya", 
+            "Hollanda"
+        ],
+        "cevap": "İngiltere"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Zor",
+        "soru": "Bizans İmparatorluğu'nun resmi dili başlangıçta hangisiydi?",
+        "cevaplar": [
+            "Latince", 
+            "Yunanca", 
+            "Arapça", 
+            "Osmanlıca"
+        ],
+        "cevap": "Latince"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Zor",
+        "soru": "Osmanlı İmparatorluğu'nda Tanzimat Fermanı hangi padişah döneminde ilan edilmiştir?",
+        "cevaplar": [
+            "II. Mahmut", 
+            "Abdülmecid", 
+            "Abdülaziz", 
+            "III. Selim"
+        ],
+        "cevap": "Abdülmecid"
+    },
+    {
+        "kategori": "Tarih",
+        "zorluk": "Zor",
+        "soru": "Napolyon Bonapart'ın 1812'de başarısız olduğu büyük sefer hangi ülkeye karşıydı?",
+        "cevaplar": [
+            "İngiltere", 
+            "Avusturya", 
+            "Prusya",
+            "Rusya"
+        ],
+        "cevap": "Rusya"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Kolay",
+        "soru": "Beethoven'ın ünlü 'Ay Işığı Sonatı' hangi müzik aletine yazılmıştır?",
+        "cevaplar": [
+            "Keman", 
+            "Piyano", 
+            "Çello", 
+            "Flüt"
+        ],
+        "cevap": "Piyano"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Kolay",
+        "soru": "Hangisi bir yaylı çalgıdır?",
+        "cevaplar": [
+            "Keman", 
+            "Trompet", 
+            "Saksafon", 
+            "Bateri"
+        ],
+        "cevap": "Keman"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Kolay",
+        "soru": "'Hey Jude' şarkısı hangi ünlü grup tarafından söylenmiştir?",
+        "cevaplar": [
+            "Pink Floyd", 
+            "The Rolling Stones",
+            "The Beatles", 
+            "Queen"
+        ],
+        "cevap": "The Beatles"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Orta",
+        "soru": "Johann Sebastian Bach, hangi dönemin müzik bestecisidir?",
+        "cevaplar": [
+            "Barok",
+            "Klasik",
+            "Romantik",
+            "Çağdaş"
+        ],
+        "cevap": "Barok"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Orta",
+        "soru": "Hangisi bir opera türü değildir?",
+        "cevaplar": [
+            "Opera Buffa",
+            "Opera Seria",
+            "Sonat",
+            "Singspiel"
+        ],
+        "cevap": "Sonat"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Orta",
+        "soru": "Hangi müzik aleti caz müziğinde en yaygın şekilde kullanılır?",
+        "cevaplar": [
+            "Arp",
+            "Saksafon",
+            "Keman",
+            "Klarnet"
+        ],
+        "cevap": "Saksafon"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Zor",
+        "soru": "Franz Schubert'in 'Bitmemiş Senfoni'si kaç bölümden oluşur?",
+        "cevaplar": [
+            "İki",
+            "Dört",
+            "Üç",
+            "Beş"
+        ],
+        "cevap": "İki"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Zor",
+        "soru": "Arnold Schoenberg hangi müzik tekniğiyle tanınır?",
+        "cevaplar": [
+            "Kontrpuan",
+            "Modal Müzik",
+            "Polifoni",
+            "Dodekafoni (12 Ton Tekniği)"
+        ],
+        "cevap": "Dodekafoni (12 Ton Tekniği)"
+    },
+    {
+        "kategori": "Müzik",
+        "zorluk": "Zor",
+        "soru": "Richard Wagner'in 'Der Ring des Nibelungen' adlı eserinin tamamı kaç saat sürer?",
+        "cevaplar": [
+            "10 saat",
+            "20 saat",
+            "Yaklaşık 15 saat",
+            "7 saat"
+        ],
+        "cevap": "Yaklaşık 15 saat"
+    },
+
+
+    {
+        "kategori": "Bilim",
+        "zorluk": "Kolay",
+        "soru": "Hangi gezegen güneş sistemimizde en büyük hacme sahiptir?",
+        "cevaplar": [
+            "Satürn",
+            "Mars",
+            "Venüs",
+            "Jüpiter"
+        ],
+        "cevap": "Jüpiter"
+    },
+    {
+        "kategori": "Bilim",
+        "zorluk": "Kolay",
+        "soru": "Hangisi evrim teorisini ortaya koyan bilim insanıdır?",
+        "cevaplar": [
+            "Charles Darwin",
+            "Isaac Newton",
+            "Albert Einstein",
+            "Marie Curie"
+        ],
+        "cevap": "Charles Darwin"
+    },
+    {
+        "kategori": "Bilim",
+        "zorluk": "Kolay",
+        "soru": "Hangi elementin kimyasal sembolü 'O' dur?",
+        "cevaplar": [
+            "Oda",
+            "Altın",
+            "Oksijen",
+            "Kükürt"
+        ],
+        "cevap": "Oksijen"
+    },
+    {
+        "kategori": "Bilim",
+        "zorluk": "Orta",
+        "soru": "Hangi gezegen Güneş Sistemi'nde en fazla uydusuna sahip?",
+        "cevaplar": [
+            "Jüpiter",
+            "Satürn",
+            "Mars",
+            "Venüs"
+        ],
+        "cevap": "Jüpiter"
+    },
+    {
+        "kategori": "Bilim",
+        "zorluk": "Orta",
+        "soru": "DNA'nın yapı taşları nelerdir?",
+        "cevaplar": [
+            "Proteinler",
+            "Nükleotitler",
+            "Amino asitler",
+            "Enzimler"
+        ],
+        "cevap": "Nükleotitler"
+    },
+    {
+        "kategori": "Bilim",
+        "zorluk": "Orta",
+        "soru": "Hangi organ vücudumuzda oksijen taşıyan kanı üretir?",
+        "cevaplar": [
+            "Karaciğer",
+            "Beyin",
+            "Kalp",
+            "Akciğerler"
+        ],
+        "cevap": "Akciğerler"
+    },
+    {
+        "kategori": "Bilim",
+        "zorluk": "Zor",
+        "soru": "Büyük Patlama (Big Bang) teorisine göre, evrenin yaşı yaklaşık ne kadardır?",
+        "cevaplar": [
+            "2 milyar yıl",
+            "4.5 milyar yıl",
+            "13.8 milyar yıl",
+            "20 milyon yıl"
+        ],
+        "cevap": "13.8 milyar yıl"
+    },
+    {
+        "kategori": "Bilim",
+        "zorluk": "Zor",
+        "soru": "Hangi fiziksel kuvvet, gezegenlerin yörüngelerini belirleyen kuvvet olarak bilinir?",
+        "cevaplar": [
+            "Elektromanyetik kuvvet",
+            "Gravitasyon",
+            "Nükleer kuvvet",
+            "İtme kuvveti"
+        ],
+        "cevap": "Gravitasyon"
+    },
+    {
+        "kategori": "Bilim",
+        "zorluk": "Zor",
+        "soru": "Hangisi güneş sistemindeki en küçük gezegendir?",
+        "cevaplar": [
+            "Venüs",
+            "Mars",
+            "Uranüs",
+            "Merkür"
+        ],
+        "cevap": "Merkür"
+    },
+
+
+    {
+        "kategori": "Spor",
+        "zorluk": "Kolay",
+        "soru": "FIFA Dünya Kupası tarihinde en çok şampiyon olan ülke hangisidir?",
+        "cevaplar": [
+            "Brezilya",
+            "Arjantin",
+            "Almanya",
+            "İtalya"
+        ],
+        "cevap": "Brezilya"
+    },
+    {
+        "kategori": "Spor",
+        "zorluk": "Kolay",
+        "soru": "Basketbolda bir oyuncu, maç boyunca kaç faul hakkına sahiptir?",
+        "cevaplar": [
+            "3",
+            "6",
+            "5",
+            "8"
+        ],
+        "cevap": "5"
+    },
+    {
+        "kategori": "Spor",
+        "zorluk": "Kolay",
+        "soru": "Tenis sporunda 'Grand Slam' turnuvalarından biri aşağıdakilerden hangisidir?",
+        "cevaplar": [
+            "World Cup",
+            "Wimbledon",
+            "Super Bowl",
+            "Tour de France"
+        ],
+        "cevap": "Wimbledon"
+    },
+    {
+        "kategori": "Spor",
+        "zorluk": "Orta",
+        "soru": "Olimpiyat Oyunları kaç yılda bir düzenlenir?",
+        "cevaplar": [
+            "2 yıl",
+            "3 yıl",
+            "4 yıl",
+            "5 yıl"
+        ],
+        "cevap": "4 yıl"
+    },
+    {
+        "kategori": "Spor",
+        "zorluk": "Orta",
+        "soru": "Formula 1 yarışlarında, pole pozisyonu neyi ifade eder?",
+        "cevaplar": [
+            "Yarışa en önden başlama hakkı",
+            "En hızlı pit-stop süresi",
+            "Yarışı lider bitiren sürücü",
+            "En uzun mesafeyi kat eden sürücü"
+        ],
+        "cevap": "Yarışa en önden başlama hakkı"
+    },
+    {
+        "kategori": "Spor",
+        "zorluk": "Orta",
+        "soru": "Rugby sporunda top hangi şekilde olur?",
+        "cevaplar": [
+            "Yuvarlak",
+            "Kare",
+            "Silindirik",
+            "Oval"
+        ],
+        "cevap": "Oval"
+    },
+    {
+        "kategori": "Spor",
+        "zorluk": "Zor",
+        "soru": "Maraton mesafesi tam olarak kaç kilometredir?",
+        "cevaplar": [
+            "40.748 km",
+            "42.195 km",
+            "50.475 km",
+            "52.631 km"
+        ],
+        "cevap": "42.195 km"
+    },
+    {
+        "kategori": "Spor",
+        "zorluk": "Zor",
+        "soru": "Futbolda 'Panenka' terimi hangi tür penaltı vuruşunu ifade eder?",
+        "cevaplar": [
+            "Köşeye sert şut çekme",
+            "Hafifçe yana vurma",
+            "Topun hafifçe havaya kaldırıldığı vuruş",
+            "Kaleciyi yanıltmak için hızlı şut"
+        ],
+        "cevap": "Topun hafifçe havaya kaldırıldığı vuruş"
+    },
+    {
+        "kategori": "Spor",
+        "zorluk": "Zor",
+        "soru": "Bir beyzbol maçında kullanılan topun resmi ağırlığı nedir?",
+        "cevaplar": [
+            "120-130 gram",
+            "150-160 gram",
+            "135-140 gram",
+            "142-149 gram"
+        ],
+        "cevap": "142-149 gram"
+    },
+
+
+    {
+        "kategori": "Sinema",
+        "zorluk": "Kolay",
+        "soru": "'Titanic' filminde başrol karakterlerden birinin adı nedir?",
+        "cevaplar": [
+            "John",
+            "Jack",
+            "James",
+            "Jake"
+        ],
+        "cevap": "Jack"
+    },
+    {
+        "kategori": "Sinema",
+        "zorluk": "Kolay",
+        "soru": "'The Avengers' filminde hangi karakter 'Mjolnir' adlı çekici kullanır?",
+        "cevaplar": [
+            "Hulk",
+            "Iron Man",
+            "Thor",
+            "Captain America"
+        ],
+        "cevap": "Thor"
+    },
+    {
+        "kategori": "Sinema",
+        "zorluk": "Kolay",
+        "soru": "'Friends' dizisinde kaç ana karakter vardır?",
+        "cevaplar": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "cevap": "6"
+    },
+    {
+        "kategori": "Sinema",
+        "zorluk": "Orta",
+        "soru": "'Breaking Bad' dizisinde Walter White'ın lakabı nedir?",
+        "cevaplar": [
+            "Heisenberg",
+            "The Cook",
+            "The Chemist",
+            "Gus"
+        ],
+        "cevap": "Heisenberg"
+    },
+    {
+        "kategori": "Sinema",
+        "zorluk": "Orta",
+        "soru": "'The Godfather' filminde Corleone ailesinin ilk lideri kimdir?",
+        "cevaplar": [
+            "Michael Corleone",
+            "Sonny Corleone",
+            "Vito Corleone",
+            "Tom Hagen"
+        ],
+        "cevap": "Vito Corleone"
+    },
+    {
+        "kategori": "Sinema",
+        "zorluk": "Orta",
+        "soru": "'Harry Potter' serisinde Harry'nin baykuşunun adı nedir?",
+        "cevaplar": [
+            "Scabbers",
+            "Hedwig",
+            "Errol",
+            "Crookshanks"
+        ],
+        "cevap": "Hedwig"
+    },
+    {
+        "kategori": "Sinema",
+        "zorluk": "Zor",
+        "soru": "Dünya çapında en çok gişe hasılatı yapan film hangisidir? (2023 itibarıyla)",
+        "cevaplar": [
+            "Avengers: Endgame",
+            "Titanic",
+            "Star Wars: The Force Awakens",
+            "Avatar"
+        ],
+        "cevap": "Avatar"
+    },
+    {
+        "kategori": "Sinema",
+        "zorluk": "Zor",
+        "soru": "Marvel Sinematik Evreni'nde ilk film hangisidir?",
+        "cevaplar": [
+            "The Incredible Hulk",
+            "Iron Man",
+            "Captain America: The First Avenger",
+            "Thor"
+        ],
+        "cevap": "Iron Man"
+    },
+    {
+        "kategori": "Sinema",
+        "zorluk": "Zor",
+        "soru": "Fransa'nın Cannes Film Festivali'nin en prestijli ödülü nedir?",
+        "cevaplar": [
+            "Altın Palmiye",
+            "Altın Ayakkabı",
+            "En İyi Yönetmen Ödülü",
+            "En İyi Erkek Oyuncu Ödülü"
+        ],
+        "cevap": "Altın Palmiye"
+    }
+]
