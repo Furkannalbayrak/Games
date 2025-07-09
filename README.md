@@ -6,6 +6,7 @@ Bu repository, çeşitli dillerde yazılmış oyunları içermektedir.
 | Proje Adı | Açıklama | Kullanılan Dil |
 |-----------|----------|----------------|
 | 🔢 [Number Guessing Game](number-guessing-game/) | Bilgisayarın seçtiği bir sayıyı tahmin etmeye çalış! | JavaScript |
+| ❓ [Quiz Game](quiz-game/) | Kategorili veya puanlı test çözerek bilginizi sınayın! | JavaScript |
 
 
 Her projeye **tıklayarak** detaylarına ulaşabilirsiniz!
