@@ -447,3 +447,6 @@ function showDifficulty() {
     zorlukDuzeyiDiv.style.display = "block";
 }
 
+
+
+
