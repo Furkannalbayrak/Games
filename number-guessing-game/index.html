@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sayı Tahmin Oyunu</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="img" href="logo-modified.png" >
+    <link rel="icon" type="img" href="https://play-lh.googleusercontent.com/NehCu9PPlvKF3rwkldUJl1vvVRmSzpHKMp89YzD1sL-_loTfYRA8OyxuxSX3DvMrtRI">
+    <meta name="description"
+        content="Eğlenceli bir sayı tahmin oyunu. 1-100 arasında bir sayıyı tahmin etmeye çalışın!">
 </head>
-<body>
-    <section>
-        <div class="background">
-            <div class="tekrarBaslat">
-                <button class="again">Tekrar Başlat</button>
-                <p class="bilgi">(0-100 arası)</p>
-            </div>
 
+<body>
+    <div class="background">
+        <header class="tekrarBaslat">
+            <button class="again">Yeniden Başlat</button>
+            <p class="bilgi">1-100 arasında bir sayı seçildi</p>
+        </header>
+
+        <div>
             <div class="sayiTahminEt">
-                <h1>Sayı Tahmin Et !</h1>
+                <h1>Sayı Tahmin Oyunu</h1>
             </div>
 
             <div class="ortaSerit">
@@ -25,25 +29,30 @@
                 </div>
             </div>
 
-            <hr>
-
             <div class="altTaraf">
                 <div class="kontrolEt">
-                    <div>
-                        <input class="inputGir" type="number">
-                    </div>
-                    <button class="input check">Kontrol Et !</button>
+                    <input class="inputGir" type="number" placeholder="Tahmininiz" min="1" max="100" required>
+                    <button class="input check">Tahmin Et</button>
                 </div>
 
                 <div class="bilgiVer">
-                    <p class="firstP">Tahmin ediliyor...</p>
-                    <p class="secondP">Skor : <span class="skor">20</span></p>
-                    <p class="thirdP">En yüksek skor : <span class="maxSkor">0</span></p>
+                    <div class="bilgiVer1">
+                        <p class="firstP">Tahmininizi girin...</p>
+                    </div>
+                    <div class="bilgiVer2">
+                        <p class="secondP">Kalan Hakkınız : <span class="skor">10</span></p>
+                        <p class="thirdP">En Yüksek Skor : <span class="maxSkor">0</span></p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <script src="app.js"></script>
 </body>
+
+
+
+    
+
 </html>
