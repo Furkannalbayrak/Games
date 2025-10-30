@@ -5,10 +5,11 @@ const input = document.querySelector(".inputGir");
 const bilgiYazisi = document.querySelector(".firstP");
 const skor = document.querySelector(".skor");
 const maxSkor = document.querySelector(".maxSkor");
+const numberBox = document.querySelector(".kare p");
+const body = document.querySelector("body");
 
-let puan = 20;
-let maxSayi = 100;
-let randomNumber = Math.floor(Math.random() * maxSayi) + 1;
+let puan = 10;
+let randomNumber = Math.floor(Math.random() * 100) + 1;
 runEventListeners()
 
 function runEventListeners() {
@@ -20,61 +21,66 @@ function degeriKontrolet() {
 
     const value = Number(input.value.trim());
 
-    if(value != ""){
-        if(value < 0 || value > maxSayi){
-            bilgiYazisi.textContent = `Lütfen 0 ile ${maxSayi} arasında bir sayı girin`;
+    if (value != "") {
+        if (value < 0 || value > 100) {
+            bilgiYazisi.textContent = `Lütfen 1 ile 100 arasında bir sayı girin`;
             return;
         }
-        
-    
+
         if (value > randomNumber) {
-            bilgiYazisi.textContent = "Daha kucuk bir sayi girin";
+            bilgiYazisi.textContent = "Daha küçük bir sayi girin";
             puan--;
             skor.textContent = puan;
         }
         else if (value < randomNumber) {
-            bilgiYazisi.textContent = "Daha buyuk bir sayi girin";
+            bilgiYazisi.textContent = "Daha büyük bir sayi girin";
             puan--;
             skor.textContent = puan;
         }
         else {
-            bilgiYazisi.textContent = "Doğru Tahmin ettiniz !!!"
-            document.querySelector(".background").style.backgroundColor = "rgb(56, 208, 74)";
+            bilgiYazisi.textContent = "🎉 Doğru Tahmin! Tebrikler!"
+            numberBox.textContent = randomNumber;
+            body.style.background = "linear-gradient(135deg, #1a5f1a 0%, #1e3b1e 100%)";
+            document.querySelector(".kare").style.background = "linear-gradient(135deg, #28a745, #5cd68b)";
+
             input.disabled = true;
-    
+
             if (puan > Number(maxSkor.textContent)) {
                 maxSkor.textContent = puan;
             }
         }
-    
         puanKontrol();
     }
-    else{
-        alert("Boş bırakmayınız !!!");
+    else {
+        alert("⚠️ Lütfen bir sayı giriniz!");
     }
-
-    
 }
 
-function puanKontrol(){
-    if(puan == 0){
-        bilgiYazisi.textContent = "OYUNU KAYBETTİNİZ :(";
-        maxSkor.textContent = puan;
-        document.querySelector(".background").style.backgroundColor = "rgb(226, 40, 40)";
+function puanKontrol() {
+    if (puan == 0) {
+        bilgiYazisi.textContent = `💥 Oyun Bitti! Doğru sayı ${randomNumber} idi`;
+        maxSkor.textContent = 0;
+        body.style.background = "linear-gradient(135deg, #5e1a1a 0%, #3e1616 100%)";
+        document.querySelector(".kare").style.background = "linear-gradient(135deg, #dc3545, #ff6b6b)";
+        numberBox.textContent = randomNumber;
         kontrolEtButton.disabled = true;
     }
 }
 
-function oyunuTekrarEt(){
-    randomNumber = Math.floor(Math.random() * maxSayi) + 1;
-    puan = 20;
-    bilgiYazisi.textContent = "Tahmin ediliyor...";
-    skor.textContent = puan; 
+function oyunuTekrarEt() {
+    randomNumber = Math.floor(Math.random() * 100) + 1;
+    puan = 10;
+
+    bilgiYazisi.textContent = "Tahmininizi girin...";
+    skor.textContent = puan;
     input.value = "";
-    document.querySelector(".background").style.backgroundColor = "rgb(48, 46, 46)";
+    numberBox.textContent = "?";
+
+    body.style.background = "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)";
+    document.querySelector(".kare").style.background = "linear-gradient(135deg, #4361ee, #3f37c9)";
     kontrolEtButton.disabled = false;
     input.disabled = false;
 }
 
 
-// background colorlar ayarlanacak
+
