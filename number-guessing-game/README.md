@@ -1,11 +1,11 @@
 
 # Number Guessing Game
-Bu proje, kullanıcıların 0 ile 100 arasında rastgele belirlenen bir sayıyı tahmin etmeye çalıştığı basit ama eğlenceli bir web oyunudur. Her yanlış tahmin kullanıcıdan bir puan eksiltir ve doğru tahmin yapıldığında oyun sona erer. Kullanıcı en yüksek puanını görebilir ve dilediğinde oyunu yeniden başlatabilir. Responsive tasarımı sayesinde oyun tüm cihazlarda sorunsuz çalışır.
+Bu proje, kullanıcıların 1 ile 100 arasında rastgele belirlenen bir sayıyı tahmin etmeye çalıştığı basit ama eğlenceli bir web oyunudur. Her yanlış tahmin kullanıcıdan bir puan eksiltir ve doğru tahmin yapıldığında oyun sona erer. Kullanıcı en yüksek puanını görebilir ve dilediğinde oyunu yeniden başlatabilir. Responsive tasarımı sayesinde oyun tüm cihazlarda sorunsuz çalışır.
 
 
 ## 🚀 Özellikler
 
-- 0 ile 100 arasında rastgele sayı üretilmesi
+- 1 ile 100 arasında rastgele sayı üretilmesi
 - Kullanıcıdan sayı tahmini alınması
 - Tahmine göre yönlendirme yapılması(daha büyük / daha küçük)
 - Her yanlış tahminde puan azaltılması
