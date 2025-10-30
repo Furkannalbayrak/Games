@@ -1,97 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
 * {
-    text-decoration: none;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    color: white;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #4361ee;
+    --secondary-color: #3f37c9;
+    --accent-color: #4cc9f0;
+    --dark-color: #1a1a2e;
+    --light-color: #f8f9fa;
+    --success-color: #4caf50;
+    --error-color: #f72585;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    min-height: 100vh;
+    color: var(--light-color);
 }
 
 .background {
-    background-color: rgb(48, 46, 46);
-    height: 100vh;
-    position: relative;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .tekrarBaslat {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 85%;
-    padding-top: 30px;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-button {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 7px;
-    transition: 0.2s;
+.again {
+    background: var(--primary-color);
+    color: white;
     border: none;
-    background-color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3);
 }
 
-button:hover {
-    transform: scale(1.08);
+.again:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(67, 97, 238, 0.4);
+}
+
+.bilgi {
+    font-size: 20px;
+    color: #a5b4fc;
+    font-weight: 300;
 }
 
 .sayiTahminEt {
     text-align: center;
-    margin-top: 100px;
-    font-weight: bold;
-    font-size: 31px;
+    margin: 2rem 0 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(45deg, #4cc9f0, #4361ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
 }
 
 .ortaSerit {
+    position: relative;
+    margin: 2rem 0;
     display: flex;
     justify-content: center;
 }
 
 .kare {
-    width: 150px;
+    width: 120px;
     height: 120px;
-    background-color: white;
-    text-align: center;
-    margin-top: 10px;
-    z-index: 1000;
-}
-
-.kare p {
-    color: black;
-    font-size: 60px;
-    align-items: center;
-    font-weight: bold;
-    margin-top: 15%;
-}
-
-hr {
-    position: relative;
-    top: -8%;
-    background-color: white;
-    height: 4px;
-}
-
-.kontrolEt {
-    flex-basis: 40%;
+    background: linear-gradient(135deg, #4361ee, #3f37c9);
+    border-radius: 15px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    box-shadow: 0 10px 30px rgba(67, 97, 238, 0.3);
+    position: relative;
+    z-index: 1;
 }
 
-.bilgiVer {
-    font-size: 27px;
-    line-height: 2;
-    flex-basis: 30%;
+.kare::before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    border-radius: 20px;
+    opacity: 0.7;
+    filter: blur(12px);
 }
 
 .altTaraf {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 3rem;
     display: flex;
-    margin: 75px auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.kontrolEt {
+    min-width: 270px;
+}
+
+.inputGir {
     width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.inputGir:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.3);
+}
+
+.check {
+    width: 100%;
+    background: linear-gradient(45deg, #4cc9f0, #4361ee);
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
     justify-content: center;
-    gap: 100px;
+}
+
+.check:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(76, 201, 240, 0.4);
+}
+
+.bilgiVer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    min-width: 250px;
+    font-size: 1.2rem;
+    line-height: 2;
+    padding: 1rem;
+}
+
+.firstP {
+    color: #a5b4fc;
+    font-weight: 300;
+}
+
+.skor, .maxSkor {
+    font-weight: 700;
+    color: var(--accent-color);
 }
 
 input {
@@ -104,105 +203,135 @@ input {
     width: 55%;
     height: 90px;
     text-align: center;
-    padding-right: 20px;
 }
 
-.check {
-    display: flex;
-    margin: 25px auto;
-}
-
-.bilgi {
-    font-size: 25px;
-}
-
-.firstP {
-    margin-bottom: 50px;
-}
 
 button:hover {
     background-color: rgb(130, 127, 127);
 }
 
-
 /*----------- RESPONSİVE TASARIM ------------*/
 
-
-
-@media(max-width: 1000px) {
+@media (max-width: 768px) {
+    .background {
+        padding: 30px;
+    }
+    
+    .tekrarBaslat {
+        gap: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .kare {
+        width: 100px;
+        height: 100px;
+        font-size: 2.8rem;
+    }
+    
     .altTaraf {
-        gap: 40px;
+        flex-direction: column;
+        gap: 5px;
+        padding: 1.5rem;
+        margin-top: 2rem;
     }
 
-    input {
-        width: 50%;
-        height: 75px;
+    .bilgiVer{
+        width: 100%;
+        min-width: 100%;
     }
 
+    .bilgiVer2{
+        font-size: 18px;
+    }
+
+    .firstP{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .inputGir {
+        font-size: 1.3rem;
+        padding: 0.8rem;
+        height: 60px;
+    }
+    
+    .check {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+    
     .bilgiVer {
-        flex-basis: 44%;
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .bilgi {
+        font-size: 1rem;
+        text-align: center;
     }
 }
 
-@media(max-width: 700px) {
-    .altTaraf {
-        gap: 15px;
+@media(max-width: 500px) {
+    .background{
+        padding: 25px;
     }
-
-    .bilgiVer {
-        font-size: 26px;
-        flex-basis: 52%;
-    }
-
-    input {
-        height: 65px;
-        width: 40%;
-    }
-
-    button {
-        font-size: 15px;
-    }
-}
-
-@media(max-width: 600px) {
     .altTaraf {
         display: flex;
         flex-direction: column;
         margin-top: 45px;
     }
-
-    input {
-        width: 45%;
-    }
-
-    .sayiTahminEt {
-        margin-top: 70px;
-        font-size: 28px;
-    }
-
+ 
     .check {
-        margin-top: 10px;
+        margin-top: 8px;
         font-size: 18px;
     }
 
     .kare {
-        width: 130px;
+        width: 110px;
         height: 100px;
     }
 
-    .bilgiVer {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.5;
-        font-size: 28px;
+    .ortaSerit{
+        margin: 28px;
     }
-
-    .bilgiVer p {
-        text-align: center;
-    }
-
+  
     .firstP {
-        margin: 0;
+        margin-bottom: 15px;
+    }
+    .again{
+        padding: 10px 16px;
+        font-size: 11px;
+    }
+    .bilgi{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    h1{
+        font-size: 29px;
+    }
+
+    .bilgiVer2{
+        font-size: 16px;
+    }
+
+    .firstP{
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
+    .altTaraf{
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .sayiTahminEt{
+        margin-top: 24px;
+        margin-bottom: 20px;
     }
 }
+
+
 
