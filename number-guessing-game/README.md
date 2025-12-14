@@ -49,9 +49,18 @@ Bu projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
 
 Projeyi yerel ortamda çalıştırdığınızda, JavaScript tarayıcıda doğru şekilde çalışacaktır.
 
+### 🎮 Oyun Akışı
+1. Oyun başladığında bilgisayar hafızasında **1 ile 100 arasında** rastgele bir sayı tutar.
+2. Tahmin kutusuna bir sayı girin ve tahmin et butonuna basın.
+3. Eğer tahmininiz yanlışsa:
+   - Sistem sizi **"Daha Büyük"** veya **"Daha Küçük"** bir sayı girmeniz konusunda uyarır.
+   - Her yanlış tahminde mevcut puanınız **1 azalır**.
+4. Doğru sayıyı bulduğunuzda:
+   - Ekran arka planı yeşile döner ve kazandığınızı belirten mesaj görünür.
+   - Mevcut skorunuz, eğer önceki rekorunuzdan yüksekse **"En Yüksek Skor"** olarak güncellenir.
+5. **"Again!"** butonuna basarak oyunu sıfırlayıp yeni bir sayı ile tekrar başlayabilirsiniz.
 
 ## 📜 License
 Bu proje MIT lisansı altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
-
 
 
