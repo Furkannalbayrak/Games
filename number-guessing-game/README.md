@@ -16,9 +16,9 @@ Bu proje, kullanıcıların 1 ile 100 arasında rastgele belirlenen bir sayıyı
 
 ## 📂 Proje Yapısı
 
-- **index.html**: Oyunun temel yapısını ve kullanıcı arayüzünü oluşturan HTML dosyasıdır.
-- **style.css**: Oyunun görünümünü şekillendiren, renk, boyut ve düzen gibi stil özelliklerini tanımlayan dosyadır.
-- **app.js**: Oyunun mantığını oluşturan JavaScript dosyası. Rastgele sayı üretimi, kullanıcı girdisi kontrolü ve skor sistemi burada yer alır.
+- `index.html`: Oyunun temel yapısını ve kullanıcı arayüzünü oluşturan HTML dosyasıdır.
+- `style.css`: Oyunun görünümünü şekillendiren, renk, boyut ve düzen gibi stil özelliklerini tanımlayan dosyadır.
+- `app.js`: Oyunun mantığını oluşturan JavaScript dosyası. Rastgele sayı üretimi, kullanıcı girdisi kontrolü ve skor sistemi burada yer alır.
 
 
 ## 💻 Kullanılan Teknolojiler ve Yazılım Dilleri
