@@ -48,7 +48,7 @@ Bu projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
 
 Projeyi yerel ortamda çalıştırdığınızda, JavaScript tarayıcıda doğru şekilde çalışacaktır.
 
-### Oyun Akışı
+### 🎮 Oyun Akışı
 1. Başlangıç ekranında **Puanlı** veya **Kategorili** modlarından birini seçin.
 2. Eğer **Kategorili** seçtiyseniz, yarışmak istediğiniz alanı ve zorluk derecesini belirleyin.
 3. Eğer **Puanlı** modunu seçerseniz:
