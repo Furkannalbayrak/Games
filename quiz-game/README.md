@@ -1,4 +1,4 @@
-# Quiziz - Bilgi Yarışması
+# Quiz Game - Bilgi Yarışması
 Bu proje, kullanıcıların genel kültürlerini test edebileceği, farklı kategorilerde ve zorluk seviyelerinde yarışabileceği interaktif bir web tabanlı bilgi yarışması uygulamasıdır. Dinamik yapısı sayesinde soruları JSON tabanlı bir veri havuzundan çeker ve kullanıcıya akıcı bir deneyim sunar.
 
 ## 🚀 Özellikler
