@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Oyunu</title>
+    <title>Bilgi Yarışması</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-    <link rel="icon" type="image/jpg" href="https://img.freepik.com/premium-vector/quiz-logo-quiz-time-label-with-question-mark_349999-2025.jpg">
+    <link rel="icon" type="image/jpg" href="https://marketplace.canva.com/ffUTc/MAFa_effUTc/1/tl/canva-speech-bubbles-with-question-marks-doubt-concept-problem-solving-MAFa_effUTc.png">
 </head>
 
 <body>
@@ -43,6 +43,8 @@
             <div class="sameChild">Spor</div>
             <div class="sameChild">Sinema</div>
         </div>
+
+        <button class="btnBack" id="backToMainFromKategori">< Geri Dön</button>
     </div>
 
 
@@ -60,23 +62,19 @@
         <div class="startTest_Kategorili">
             <button class="startTestChild_Kategorili">Teste Başla</button>
         </div>
+
+        <button class="btnBack" id="backToKategoriFromZorluk">< Geri Dön</button>
     </div>
  
 
     <div class="questionDiv" style="display: none;">
         <div class="progressBar">
-            <div class="progressBarInner">
-
-            </div>
+            <div class="progressBarInner"></div>
         </div>
 
-        <div class="showDifficulty">
-            
-        </div>
+        <div class="showDifficulty"></div>
 
-        <div class="question">
-            
-        </div>
+        <div class="question"></div>
 
         <div class="options">
             <div class="optionsChild"></div>
@@ -85,9 +83,7 @@
             <div class="optionsChild"></div>
         </div>
 
-        <div class="warning" style="display: none;">
-
-        </div>
+        <div class="warning" style="display: none;"></div>
 
         <div class="nextQuestion">
             <button class="nextQuestionChild">Sonraki Soru →</button>
@@ -101,17 +97,16 @@
 
     <div class="resultDiv" style="display: none;">
         <div class="results">
-            <p class="result">Toplam doğru sayiniz : 5</p>
-            <p class="result">Toplam yanlış sayinizi : 10</p>
-            <p class="result">Toplam puaniniz : 31</p>
+            <p class="result">Toplam doğru sayiniz : 0</p>
+            <p class="result">Toplam yanlış sayinizi : 0</p>
+            <p class="result">Toplam puaniniz : 0</p>
         </div>
 
-        <div class="resultBox">
-            <!-- <div class="resultBoxChild">1</div>
-            <div class="resultBoxChild">2</div>
-            <div class="resultBoxChild">3</div> -->
-        </div>
+        <div class="resultBox"></div>
 
+        <div class="restartGame">
+            <button class="restartBtn" onclick="location.reload()">Tekrar Oyna</button>
+        </div>
     </div>
 
 
@@ -133,14 +128,14 @@
         <div class="startTest_Puanli">
             <button class="startTestChild_Puanli">Teste Başla</button>
         </div>
+
+        <button class="btnBack" id="backToMainFromBilgi">< Geri Dön</button>
     </div>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="app.js"></script>
 </body>
-
 </html>
 
 
+            
