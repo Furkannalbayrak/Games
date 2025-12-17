@@ -1,4 +1,3 @@
-
 const startTestKategorili = document.querySelector(".startTestChild_Kategorili");
 const startTestPuanli = document.querySelector(".startTestChild_Puanli");
 const nextQuestion = document.querySelector(".nextQuestionChild");
@@ -19,6 +18,11 @@ const secenekler = document.querySelectorAll(".optionsChild");
 
 const resultBox = document.querySelector(".resultBox");
 const liste = document.querySelector(".liste");
+const restartBtn = document.querySelector(".restartBtn");
+
+const backToMainFromKategori = document.querySelector("#backToMainFromKategori");
+const backToKategoriFromZorluk = document.querySelector("#backToKategoriFromZorluk");
+const backToMainFromBilgi = document.querySelector("#backToMainFromBilgi");
 
 
 sayilar = [];
@@ -42,11 +46,37 @@ function runEventListener() {
 
     resultBox.addEventListener("click", goQuestion);
     liste.addEventListener("click", listele);
+
+    if (restartBtn) {
+        restartBtn.addEventListener("click", () => location.reload());
+    }
+
+    if(backToMainFromKategori) {
+        backToMainFromKategori.addEventListener("click", () => {
+            kategoriDiv.style.display = "none";
+            sinavTuruDiv.style.display = "block";
+        });
+    }
+
+    if(backToKategoriFromZorluk) {
+        backToKategoriFromZorluk.addEventListener("click", () => {
+            zorlukDuzeyiDiv.style.display = "none";
+            kategoriDiv.style.display = "block";
+        });
+    }
+
+    if(backToMainFromBilgi) {
+        backToMainFromBilgi.addEventListener("click", () => {
+            bilgilendirmeDiv.style.display = "none";
+            sinavTuruDiv.style.display = "block";
+        });
+    }
 }
 
 function listele() {
     secenekler.forEach((element) => {
-        element.style.backgroundColor = "grey";
+        element.style.backgroundColor = "#cbd5e0";
+        element.style.color = "#4a5568";
     })
     showResult(true);
 }
@@ -62,14 +92,16 @@ function goQuestion(e) {
 
         secenekler.forEach((element) => {
             if (element.textContent == dizi_cevap[number]) {
-                element.style.backgroundColor = "green";
+                element.style.backgroundColor = "#48bb78";
+                element.style.color = "white";
             }
         })
 
         if (results[number] == "yanlis") {
             secenekler.forEach((element) => {
                 if (element.textContent == dizi_benimCevaplarim[number]) {
-                    element.style.backgroundColor = "rgb(217, 15, 15)";
+                    element.style.backgroundColor = "#f56565";
+                    element.style.color = "white";
                 }
             })
         }
@@ -128,18 +160,18 @@ async function startTestPuan() {
 }
 
 
-
 function selectOptions(e) {
 
     if (e.target.classList.contains("optionsChild")) {
 
         Array.from(e.target.parentElement.children).forEach(element => {
-            element.style.backgroundColor = "grey";
+            element.style.backgroundColor = "";
+            element.style.color = "";
         });
-        e.target.style.backgroundColor = " rgb(86, 80, 80)";
+        e.target.style.backgroundColor = "#667eea";
+        e.target.style.color = "white";
     }
 }
-
 
 
 let a = 0;
@@ -183,7 +215,6 @@ async function StartTestKategori() {
 }
 
 
-
 async function createNewQuestion(soru, secenekler, zorlukSeviyesi, sonuclariIncele) {
     const question = document.querySelector(".question");
     question.textContent = soru;
@@ -198,6 +229,8 @@ async function createNewQuestion(soru, secenekler, zorlukSeviyesi, sonuclariInce
     const addOptionsChild = document.querySelectorAll(".optionsChild");
     addOptionsChild.forEach((element, index) => {
         element.textContent = secenekler[index];
+        element.style.backgroundColor = "";
+        element.style.color = "";
     })
 
     if (sonuclariIncele == 1) {
@@ -228,7 +261,7 @@ function bekle(e) {
     let secili = false;
 
     secenekler.forEach((element) => {
-        if (element.style.backgroundColor == "rgb(86, 80, 80)") {
+        if (element.style.backgroundColor == "rgb(102, 126, 234)") {
             secili = true;
             dizi_benimCevaplarim[i] = element.textContent;
 
@@ -248,7 +281,7 @@ function bekle(e) {
     if (secili) {
         progressBarFunction();
         Array.from(e.target.parentElement.previousElementSibling.previousElementSibling.children).forEach((element) => {
-            element.style.backgroundColor = "grey";
+            element.style.backgroundColor = "#cbd5e0";
         })
         i++;
 
@@ -278,7 +311,6 @@ function bekle(e) {
 }
 
 
-
 let interval;
 function progressBarFunction(control) {
 
@@ -301,22 +333,22 @@ function progressBarFunction(control) {
 
 
         if (progressBarWidth <= 100 && progressBarWidth > 70) {
-            progressBar.style.backgroundColor = "rgb(52, 198, 52)";  // %100'e yakın, yeşil
+            progressBar.style.backgroundColor = "#48bb78";
         }
         else if (progressBarWidth <= 70 && progressBarWidth > 55) {
-            progressBar.style.backgroundColor = "yellowgreen";  // Orta yeşil
+            progressBar.style.backgroundColor = "#ecc94b";
         }
         else if (progressBarWidth <= 55 && progressBarWidth > 40) {
-            progressBar.style.backgroundColor = "rgb(185, 226, 35)";  // Sarıya yakın
+            progressBar.style.backgroundColor = "#ed8936";
         }
         else if (progressBarWidth <= 40 && progressBarWidth > 25) {
-            progressBar.style.backgroundColor = "orange";  // Turuncu
+            progressBar.style.backgroundColor = "#f56565";
         }
         else if (progressBarWidth <= 25 && progressBarWidth > 10) {
-            progressBar.style.backgroundColor = "rgb(244, 52, 38)";  // Kırmızıya yakın
+            progressBar.style.backgroundColor = "#c53030";
         }
         else {
-            progressBar.style.backgroundColor = "rgb(176, 0, 0)";  // %5'in altı, koyu kırmızı
+            progressBar.style.backgroundColor = "#9b2c2c";
         }
 
 
@@ -333,7 +365,6 @@ function progressBarFunction(control) {
         }
     }, 140);
 }
-
 
 
 function showResult(control) {
@@ -385,15 +416,14 @@ function addBox(element, soru) {
     div.classList = "resultBoxChild";
     div.textContent = `${soru}`;
     if (element == "dogru") {
-        div.style.backgroundColor = "green";
+        div.style.backgroundColor = "#48bb78";
     }
     else {
-        div.style.backgroundColor = "red";
+        div.style.backgroundColor = "#f56565";
     }
 
     sonucKutu.appendChild(div);
 }
-
 
 
 function selectDifficulty(e) {
@@ -402,12 +432,13 @@ function selectDifficulty(e) {
         sessionStorage.setItem("difficultyValue", difficultyValue);
 
         Array.from(e.target.parentElement.children).forEach(element => {
-            element.style.backgroundColor = "rgb(206, 193, 193)";
+            element.style.backgroundColor = "";
+            element.style.color = "";
         });
-        e.target.style.backgroundColor = " rgb(158, 150, 150)";
+        e.target.style.backgroundColor = "#667eea";
+        e.target.style.color = "white";
     }
 }
-
 
 
 function selectKategori(e) {
@@ -417,7 +448,6 @@ function selectKategori(e) {
         showDifficulty();
     }
 }
-
 
 
 function selectSinavTuru(e) {
@@ -446,7 +476,5 @@ function showDifficulty() {
     kategoriDiv.style.display = "none";
     zorlukDuzeyiDiv.style.display = "block";
 }
-
-
 
 
